@@ -1,0 +1,26 @@
+.heart-rate {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+
+.heart-rate-image{
+    width: 2rem;
+}
+
+.heart-rate-title{
+    color: var(--gray);
+}
+
+.heart-rate-number{
+    color: white;
+    font-size: 1.5rem;
+}
