@@ -2,6 +2,7 @@ import React from 'react'
 
 import './Reason.css'
 import { Image1, Image2, Image3, Image4, tick } from '../../assets'
+import { Partners } from '../Partners/Partners'
 
 export const Reason = () => {
     return(
@@ -43,6 +44,8 @@ export const Reason = () => {
                 }>
                     OUR PARTNERS
                 </span>
+
+                <Partners />
             </div>
         </div>
     )
