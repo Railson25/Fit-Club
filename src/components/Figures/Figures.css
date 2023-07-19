@@ -1,0 +1,20 @@
+.figures {
+    display: flex;
+    gap: 2rem;
+}
+
+.figures-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figures-number{
+    color: white;
+    font-size: 2rem;
+}
+
+.figures-text {
+    color: var(--gray);
+    text-transform: uppercase;
+}
