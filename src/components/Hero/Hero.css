@@ -3,6 +3,12 @@
     justify-content: space-between;
 }
 
+.blur-h {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+
 .left-h {
     padding: 1.5rem 2rem 2rem;
     flex: 3;

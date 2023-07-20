@@ -10,6 +10,8 @@ import { Calories, hero_image, hero_image_back } from "../../assets";
 export const Hero = () => {
     return(
         <div className="hero">
+
+            <div className="blur blur-h"></div>
             <div className="left-h">
                 <Header />
                 <TheBest />
