@@ -13,8 +13,12 @@ import adidas from '../assets/adidas.png'
 import nike from '../assets/nike.png'
 import tick from '../assets/tick.png'
 import whiteTick from '../assets/whiteTick.png'
+import leftArrow from '../assets/leftArrow.png'
+import rightArrow from '../assets/rightArrow.png'
+
 
 export  {
     Logo, hero_image, hero_image_back, Heart, Calories, RightArrow,
-    Image1, Image2, Image3, Image4, nb, adidas, nike, tick, whiteTick
+    Image1, Image2, Image3, Image4, nb, adidas, nike, tick, whiteTick,
+    leftArrow, rightArrow
 }
