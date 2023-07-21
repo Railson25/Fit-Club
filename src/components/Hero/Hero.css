@@ -97,3 +97,58 @@
     color: white;
     font-size: 1.5rem;
 }
+
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+  
+    .blur-h{
+        width: 14rem;
+    }
+
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text>div:nth-child(3){
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .right-h{
+        position: relative;
+        background: none;
+    }
+    
+    .hero-image{
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        top: 4rem;
+        align-self: center;
+    }
+    .calories{
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+    .calories-img{
+        width: 2rem;
+    }
+
+    .calories-number{
+        color: white;
+        font-size: 1rem;
+    }
+
+    .hero-image-back{
+        width: 15rem;
+        left: 2rem;
+        top: 0;
+    }
+
+}

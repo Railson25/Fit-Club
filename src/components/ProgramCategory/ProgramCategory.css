@@ -43,3 +43,9 @@
 .join-now-img {
     width: 1rem;
 }
+
+@media(max-width: 768px){
+    .program-categories{
+        flex-direction: column;
+    }
+}

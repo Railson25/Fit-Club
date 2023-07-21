@@ -18,3 +18,17 @@
     color: var(--gray);
     text-transform: uppercase;
 }
+
+@media(max-width: 768px) {
+    .figures{
+        justify-content: center;
+    } 
+
+    .figures-number{
+        font-size: large;
+    }
+
+    .figures-text {
+        font-size: small;
+    }
+}

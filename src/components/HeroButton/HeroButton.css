@@ -18,3 +18,9 @@
     width: 8rem;
     border: 2px solid var(--orange);
 }
+
+@media(max-width: 768px) {
+    .hero-buttons{
+        justify-content: center;
+    } 
+}

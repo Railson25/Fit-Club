@@ -24,3 +24,12 @@
 .the-best-ad-title{
     z-index: 2;
 }
+
+@media(max-width: 768px) {
+    .the-best-ad{
+        margin-top: 0;
+        font-size: small;
+        align-self: center;
+        transform: scale(0.8);
+    }
+}

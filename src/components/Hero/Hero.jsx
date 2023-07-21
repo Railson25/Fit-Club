@@ -11,6 +11,7 @@ import { Calories, hero_image, hero_image_back } from "../../assets";
 
 export const Hero = () => {
     const transition = {type: 'spring', duration : 3}
+
     return(
         <div className="hero">
 
