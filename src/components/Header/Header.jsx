@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from 'react-scroll'
 
 import './Header.css'
 import {Bars, Logo }from '../../assets'
@@ -8,7 +9,7 @@ export const Header = () => {
     const mobile = window.innerWidth <= 768 ? true : false
     const [menuOpened, setMenuOpened] = useState(false)
     return(
-        <div className='header'>
+        <div className='header' id='home'>
             <img src={Logo} className='logo' alt="" />
 
             {menuOpened === false && mobile === true
@@ -21,11 +22,56 @@ export const Header = () => {
                     </div> 
                 ):(
                     <ul className='header-menu'>
-                        <li onClick={() => setMenuOpened(false)} className='header-menu-item'>Home</li>
-                        <li onClick={() => setMenuOpened(false)} className='header-menu-item'>Programs</li>
-                        <li onClick={() => setMenuOpened(false)} className='header-menu-item'>Why us</li>
-                        <li onClick={() => setMenuOpened(false)} className='header-menu-item'>Plans</li>
-                        <li onClick={() => setMenuOpened(false)} className='header-menu-item'>Testimonials</li>
+                        <li className='header-menu-item'>
+                        <Link
+                                onClick={() => setMenuOpened(false)}
+                                smooth={true}
+                                to='home'
+                                span={true}
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li className='header-menu-item'>
+                        <Link
+                                onClick={() => setMenuOpened(false)}
+                                smooth={true}
+                                to='programs'
+                                span={true}
+                            >
+                                Programs
+                            </Link>
+                        </li>
+                        <li className='header-menu-item'>
+                        <Link
+                                onClick={() => setMenuOpened(false)}
+                                smooth={true}
+                                to='reasons'
+                                span={true}
+                            >
+                                Why us
+                            </Link>
+                        </li>
+                        <li className='header-menu-item'>
+                        <Link
+                                onClick={() => setMenuOpened(false)}
+                                smooth={true}
+                                to='plans'
+                                span={true}
+                            >
+                                Plans
+                            </Link>
+                        </li>
+                        <li className='header-menu-item'>
+                            <Link
+                                onClick={() => setMenuOpened(false)}
+                                smooth={true}
+                                to='testimonials'
+                                span={true}
+                            >
+                                Testimonials
+                            </Link>
+                        </li>
                     </ul>
 
                 ) 
