@@ -24,3 +24,24 @@
     color: var(--orange);
 }
 
+.mobile-container{
+    background-color: var(--appColor);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.mobile-Logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media(max-width: 768px){
+    .header-menu{
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+    }
+}

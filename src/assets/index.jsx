@@ -18,11 +18,12 @@ import rightArrow from '../assets/rightArrow.png'
 import Github from '../assets/github.png'
 import Instagram from '../assets/instagram.png'
 import LinkedIn from '../assets/linkedin.png'
+import Bars from '../assets/bars.png'
 
 
 
 export  {
     Logo, hero_image, hero_image_back, Heart, Calories, RightArrow,
     Image1, Image2, Image3, Image4, nb, adidas, nike, tick, whiteTick,
-    leftArrow, rightArrow, Github, Instagram, LinkedIn
+    leftArrow, rightArrow, Github, Instagram, LinkedIn, Bars
 }
